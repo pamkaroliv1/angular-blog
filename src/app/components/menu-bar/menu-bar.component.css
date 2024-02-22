@@ -1,11 +1,10 @@
 
 .container__menu-bar{
-  margin-top: 15px;
+
 }
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;
-  justify-content: right;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 }

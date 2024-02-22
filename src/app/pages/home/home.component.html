@@ -1,14 +1,38 @@
-<header><app-menu-bar></app-menu-bar></header>
-
 <app-menu-title></app-menu-title>
+
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+
+    <app-big-card
+      Id="1"
+      photoCover="https://vidafullstack.com.br/wp-content/uploads/2021/07/versao-12-angular-980x487.png"
+      cardTitle="NOVA VERSÃO DO ANGULAR"
+      cardDescription="A V16 é totalmente compatível com versões anteriores e interoperável com o sistema atual"
+      >
+    </app-big-card>
 
   </div>
   <div class="articles__others">
-<app-small-card></app-small-card>
-<app-small-card></app-small-card>
-<app-small-card></app-small-card>
-</div>
+    <app-small-card
+      Id="2"
+      cardTitle="Dicas rapida de JS"
+      photoCover="https://hermes.dio.me/articles/cover/a4b5221c-5d38-4f82-830e-78a655b87de6.jpg"
+    >
+    </app-small-card>
+
+    <app-small-card
+      Id="3"
+      cardTitle="Venha saber mais sobre os operadores TypeScript"
+      photoCover="data:image/png;base64,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"
+    >
+    </app-small-card
+    >
+
+    <app-small-card
+      Id="4"
+      cardTitle="Dicas de Html e Css"
+      photoCover="https://cdn-images-1.medium.com/max/800/1*cPr8FXHMUCxdp-Ay39wuCw.jpeg"
+    >
+    </app-small-card>
+  </div>
 </div>
